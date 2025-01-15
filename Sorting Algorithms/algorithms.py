@@ -9,7 +9,7 @@ arr3 = [2, 234, 12, 1, 32]
 # the expensive operation is swaping value, each time we make a swap, three operation take place
 
 def insertionSort(arr):
-    print('----------------------------------------------  Insertion Sort ---------------------------------------------- ')
+    print('---------------------------------------------- Insertion Sort ----------------------------------------------')
     for i in range(1, len(arr)):
         currentVal = arr[i]
         j = i - 1
@@ -25,7 +25,7 @@ def insertionSort(arr):
 # it runs in O(n^2)
 
 def selectionSort(arr):
-    print('---------------------------------------------- Selection Sort ---------------------------------------------- ')
+    print('---------------------------------------------- Selection Sort ----------------------------------------------')
     for i in range (0, len(arr) - 1):
         minIndex = i
         for j in range(i + 1, len(arr)):
@@ -42,7 +42,7 @@ def selectionSort(arr):
 # to better understand this algorithm think about de i and j from the loops as the times it will run the instructions
 
 def bubbleSort(arr):
-    print('----------------------------------------------  Bubble Sort ---------------------------------------------- ')
+    print('---------------------------------------------- Bubble Sort ----------------------------------------------')
     for i in range(0, len(arr) - 1):
         for j in range(0, len(arr) - i - 1):
             print(arr, arr[j], arr[j + 1]) # uncomment to see changes
